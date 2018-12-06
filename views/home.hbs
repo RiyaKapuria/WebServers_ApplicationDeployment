@@ -9,10 +9,10 @@
   <script src="main.js"></script>
 </head>
 <body>
-  <h1>{{pageTitle}}</h1>
-  <p>{{welcomeMmessage}}</p>
-  <footer>
-    <p>Copyright {{currentYear}}</p>
-  </footer>
+  {{> header}}
+
+  <p>{{screamIt welcomeMmessage}}</p>
+  
+  {{> footer}}
 </body>
 </html>
